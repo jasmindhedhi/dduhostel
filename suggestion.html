@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="ddu.jpg" type="icon" rel="icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>suggestion</title>
+</head>
+
+<body style="background-color:rgba(52, 83, 221, 0.842) ;">
+
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="ddu.jpg" style="width: 20%; height: 20%;">
+        <span style="color: cornsilk;" class="ml-3 text-xl">DDU HOSTEL</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a style="color: black;" href="project2.html" class="mr-5 hover:text-gray-900"><strong>HOME</strong></a>
+        <a style="color: black;" href="leave.html" class="mr-5 hover:text-gray-900"><strong>REQUEST LEAVE</strong></a>
+        <a style="color: black;" href="login_contact_us.html" class="mr-5 hover:text-gray-900"><strong>CONTACT US</strong></a>
+        <a style="color: black;" href="index.html" class="mr-5 hover:text-gray-900"><strong>LOGOUT</strong></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text--600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black-900">suggestion</h1>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-grey-600"><b>YOUR FULL NAME</b></label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-black-600"><b>SELECT CATEGORY :- </b></label>
+              <select name="CATAGORY" id="CATAGORY">
+                <option value="parents">parants</option>
+                <option value="student">student</option>
+                <option value="visitor">visitor</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-black-600"><strong>PUT YOUR SUGGESTION
+                  HERE</strong></label>
+              <textarea id="message" name="message"  placeholder="your suggetion is very helpful for us....."
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+
+          <div class="p-2 w-full">
+            <a href="leave.html"><button
+                class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">RESET</button></a>
+          </div>
+          <div class="p-2 w-full">
+            <a href="suggetion_msg.html"><button
+                class="flex mx-auto text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">SUBMIT
+                SUGGETION</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+</body>
+
+</html>

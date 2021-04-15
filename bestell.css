@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    font-family: arial;
+    margin: 0px;
+    height: 100%;
+    }
+    .fieldset{
+    display:inline;
+    border: solid 1px black;
+    }
+    label{
+    text-align: center;
+    }
+    h1{
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: inherit;
+    margin-right: 600px;
+    }
+    p{
+    margin-right: 610px;
+    }
+    input[type="text"]{
+    width: 320px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+    display: inline;
+    height: 19px;
+    margin-top: 13px;
+    }
+    input[type="checkbox"]{
+    margin-top: 15px;
+    text-align: center;
+    }
+    legend{
+    width: 262px;
+    margin-left: 650px;
+    }
+    .image{
+    width: 300px;
+    }
+    .odd{
+    margin-left: 125px;
+    width: 790px !important;
+    }
+    .even{
+    margin-left: 40px;
+    }
+    .none{
+    margin-left: 0px;
+    }
+    .even2{
+    margin-left: 120px;
+    }
+    .last{
+    width: 400px !important;
+    margin-left: 10px;
+    }
+    .begin1{
+    margin-left: 60px;
+    }
+    .begin2{
+    margin-left: 300px;
+    }
+    .begin21{
+    margin-left: 612px;
+    }
+    .begin22{
+    margin-left: 22px;
+    }
+    .begin3{
+    margin-left: 485px;
+    }
+    .one{
+    margin-left: 133px;
+    }
+    .one1{
+     margin-left: 190px;
+    }
+    .one11{
+    margin-left: 101px;
+    }
+    .one12{
+    margin-left: 132px;
+    }
+    .last{
+    width: 690px !important;
+    }
+    .different{
+    width: 743px !important;
+    margin-left: 10px;
+    }
+    .now{
+    width: 789px !important;
+    margin-left: 29px;
+    }
+    .now1{
+    width: 790px !important;
+    margin-left: 39px;
+    }
+    .one2{
+    margin-left: 158px;
+    }
+    .abteilung_space{
+    margin-left: 39px;
+    }
+    .imput{
+    margin-left: 20px;
+    }
+    .investion{
+    margin-left: 125px;
+    }
+    .definite{
+    margin-left: 121px;
+    }
+    .somethin{
+    margin-left: 63px;
+    }
